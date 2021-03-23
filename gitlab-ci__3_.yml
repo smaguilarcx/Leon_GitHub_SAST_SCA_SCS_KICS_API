@@ -1,0 +1,11 @@
+include: '.checkmarx.yml'
+
+stages:
+  - test
+
+checkmarx_sast:
+  stage: test
+  only:
+    - master
+    - merge_requests
+  extends: .checkmarx_sast
