@@ -3,9 +3,9 @@ include: '.checkmarx.yml'
 stages:
   - test
 
-checkmarx_sast_1:
+checkmarx_sast:
   stage: test
   only:
     - master
     - merge_requests
-  extends: .checkmarx_sast_1
+  extends: .checkmarx_sast
