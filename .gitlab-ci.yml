@@ -3,7 +3,7 @@ include: '.checkmarx.yml'
 stages:
   - test
 
-checkmarx_sast:
+checkmarx_sast_1:
   stage: test
   only:
     - master
