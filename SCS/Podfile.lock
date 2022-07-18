@@ -1,0 +1,47 @@
+PODS:
+  - AanimationTransitionn (0.0.2)
+  - ABTextFieldAnimations (0.2.1)
+  - ACKeyboardObserver (0.1.0)
+  - ActorKit (1.3.1):
+    - ActorKit/Core (= 1.3.1)
+  - ActorKit/Core (1.3.1)
+
+DEPENDENCIES:
+  - AanimationTransitionn (from `https://github.com/geng199200/animatedtransitions.git`)
+  - ABTextFieldAnimations (from `https://github.com/abhishaker17/abtextfieldanimations.git`)
+  - ACKeyboardObserver (from `https://github.com/yanke-guo/ackeyboardobserver.git`)
+  - ActorKit (from `https://github.com/tarbrain/actorkit.git`)
+
+EXTERNAL SOURCES:
+  AanimationTransitionn:
+    :git: https://github.com/geng199200/animatedtransitions.git
+  ABTextFieldAnimations:
+    :git: https://github.com/abhishaker17/abtextfieldanimations.git
+  ACKeyboardObserver:
+    :git: https://github.com/yanke-guo/ackeyboardobserver.git
+  ActorKit:
+    :git: https://github.com/tarbrain/actorkit.git
+
+CHECKOUT OPTIONS:
+  AanimationTransitionn:
+    :commit: 79cb4177ad03cd1e4499c656c8cedb6464b0d42b
+    :git: https://github.com/geng199200/animatedtransitions.git
+  ABTextFieldAnimations:
+    :commit: 62a180ef47bce7dff7655cca126780579f4b6b62
+    :git: https://github.com/abhishaker17/abtextfieldanimations.git
+  ACKeyboardObserver:
+    :commit: 01329ef4eb185cb29a7516f8393b9cd9080146a8
+    :git: https://github.com/yanke-guo/ackeyboardobserver.git
+  ActorKit:
+    :commit: e9124971777e74c04ebdbe1f7e71113d6d15b22d
+    :git: https://github.com/tarbrain/actorkit.git
+
+SPEC CHECKSUMS:
+  AanimationTransitionn: aeb266ff55d4463a03af21025914bb5c3e18a295
+  ABTextFieldAnimations: a34d609d9f52efefa053020eb109c08c45385786
+  ACKeyboardObserver: 59062a1ebe4ece86133655e05a17d32d4f45fc96
+  ActorKit: 32ec2a693056d909493705e5c97c8c9827ff5607
+
+PODFILE CHECKSUM: 9d022ae13983eb6e67c4d6d108de4b6f85940742
+
+COCOAPODS: 1.10.2
